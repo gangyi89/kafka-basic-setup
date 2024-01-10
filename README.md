@@ -54,7 +54,7 @@ tar -xzf kafka_2.13-3.6.1.tgz
 2. Move Kafka installer package to opt
 ```
 mv kafka_2.13-3.6.1 /opt/
-chwon -R kafka:kafka kafka_2.13-3.6.1
+chown -R kafka:kafka kafka_2.13-3.6.1
 ```
 
 ### Installation Steps
