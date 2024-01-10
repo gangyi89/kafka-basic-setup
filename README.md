@@ -60,7 +60,7 @@ chown -R kafka:kafka kafka_2.13-3.6.1
 ### Installation Steps
 1. Replace the following parameter in config/kraft/server.properties
 ```
-advertised.listeners=PLAINTEXT://<ip_or_fwdn_reachable_by_pega>:9092
+advertised.listeners=PLAINTEXT://<ip_or_fqdn_reachable_by_pega>:9092
 ```
 2. Add the following parameters in config/kraft/server.properties required by PEGA
 ```
