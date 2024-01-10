@@ -1,4 +1,4 @@
-# Setting up a single instance Kafka with basic setup
+# Setting up a single instance Kafka with base configuration
 
 ## Installation setup
 
