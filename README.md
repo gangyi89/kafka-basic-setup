@@ -78,7 +78,7 @@ sudo -u kafka bin/kafka-storage.sh format -t $KAFKA_CLUSTER_ID -c config/kraft/s
 ### Generate systemctl for kafka
 1. Create kafka.service
 ```
-sudo nano /etc/systemd/system/kafka.service
+nano /etc/systemd/system/kafka.service
 ```
 ```
 [Unit]
