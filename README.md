@@ -124,11 +124,3 @@ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server <adve
 ```
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server <advertised_listener>:9092
 ```
-
-
-
-
-kafka-consumer  139.144.121.71
-kafka           172.234.49.72
-
-
