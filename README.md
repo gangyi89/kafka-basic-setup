@@ -31,7 +31,7 @@ nano /etc/logrotate.d/kafka
 Note: to remove the comments.
 /var/log/kafka/kafka.log {
     monthly             # Rotate the logs weekly
-    rotate 4            # Keep 4 month worth of logs
+    rotate 4            # Keep 4 months worth of logs
     compress            # Compress (gzip) the log files on rotation
     delaycompress       # Compress the day-old logs
     missingok           # Don't throw errors if the log file is missing
